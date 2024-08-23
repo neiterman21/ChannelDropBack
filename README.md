@@ -25,7 +25,7 @@ lar datasets and models, including ImageNet and ViT.
 
 ```bash
 git clone https://github.com/neiterman21/ChannelDropBack.git
-cd LDB
+cd ChannelDropBack
 pip install -r requirements.txt
 ```
 ## Example
