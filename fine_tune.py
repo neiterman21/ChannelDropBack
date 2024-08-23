@@ -7,7 +7,6 @@ from torch import nn
 from torch import optim
 import torchvision
 from torchvision import transforms
-import wandb
 import sys
 from net_models import *
 sys.path.append("ViT-pytorch")

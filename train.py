@@ -8,7 +8,6 @@ from torch import optim
 from torch.nn import functional as F
 import torchvision
 from torchvision import transforms
-import wandb
 import sys
 from net_models import *
 from SGD_Dropback import *
