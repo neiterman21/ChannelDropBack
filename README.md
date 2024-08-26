@@ -36,12 +36,10 @@ python train.py --model resnet50 --dataset cifar100
 ```
 
 ## Results
-ChannelDropBack is a simple yet effective stochastic training approach that im-
-proves regularization in deep networks by introducing randomness exclusively
+ChannelDropBack is a simple yet effective stochastic training approach that improves regularization in deep networks by introducing randomness exclusively
 into the backward information flow during training. By randomly selecting a
 subset of channels or rows for weight updates in a selected layer and preserving
-the integrity of the forward pass, ChannelDropBack offers a universally appli-
-cable regularization technique, without requiring modifications to the network
+the integrity of the forward pass, ChannelDropBack offers a universally applicable regularization technique, without requiring modifications to the network
 architecture.
 
 ![scheme](imgs/CDB_fine_tune.jpg)
